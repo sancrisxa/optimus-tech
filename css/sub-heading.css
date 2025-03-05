@@ -1,0 +1,35 @@
+
+/* Estilos para o sub-heading */
+.sub-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px;
+    gap: 24px;
+    background-color: #FFFFFF;
+}
+
+.sub-heading > h1 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--main-color);   
+}
+
+.sub-heading > span {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+
+.sub-heading > p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 791px;
+    height: 60px;
+    flex-wrap: wrap;
+    color: var(--text-color);
+}

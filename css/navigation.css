@@ -1,0 +1,66 @@
+/* Estilos para o navigation */
+.navigation {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+}
+
+.navigation > div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.navigation-link {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.navigation-link > nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.navigation-link > nav > ul > li > a {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--text-color);
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.navigation > div > p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #3A404E;
+    line-height: 24px;
+}
+
+.navigation-actions {
+    gap: 8px;
+}
+
+.navigation-actions > button {
+    border-radius: 8px;   
+    padding-top: 10px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    text-align: center;
+    display: inline-block;
+    border: none; 
+}
+
+.navigation-actions > button:first-child {
+    background-color: #FFFFFF;
+    color: var(--text-color);
+} 
+
+.navigation-actions> button:last-child {
+    background-color: var(--main-color);
+    color: #FFFFFF;
+} 
