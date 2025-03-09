@@ -1,0 +1,26 @@
+.vagas-abertas {
+    margin-left: 270px;
+}
+
+.vagas-abertas-container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 32px;
+
+}
+
+.vagas-abertas-container > h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+}
+
+.oportunidade {
+    border-radius: 16px;
+    border: 1px solid #EAECF0;
+    padding: 24px 24px 28px 24px;
+}
