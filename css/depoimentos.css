@@ -1,0 +1,48 @@
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    padding-bottom: 96px;
+    gap: 32px;
+}
+
+.depoimentos > span {
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.depoimentos > p {
+    color: #101828;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    padding-left: 64px;
+    padding-right: 64px;
+    text-align: center;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+.depoimentos > figure > figcaption:nth-of-type(1) {
+    color: #101828;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.depoimentos > figure > figcaption:nth-of-type(2) {
+    color: #667085;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}

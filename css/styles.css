@@ -3,6 +3,7 @@
 @import url('sub-heading.css');
 @import url('vagas.css');
 @import url('vagas-abertas.css');
+@import url('depoimentos.css');
 
 :root {
     --text-color: #667085;
